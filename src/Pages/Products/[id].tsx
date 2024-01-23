@@ -49,6 +49,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
   };
 };
 
+{
+  /*aaaaa*/
+}
+
 const Product: NextPage = (props: {
   children?: ReactNode;
   product?: ProductType;
