@@ -5,6 +5,8 @@ import Head from "next/head";
 import { Container } from "reactstrap";
 import CartTable from "../../Components/CartTable";
 import CartTotal from "../../Components/CartTotal";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 const Cart: NextPage = () => {
   return (

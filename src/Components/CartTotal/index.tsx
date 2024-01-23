@@ -1,4 +1,3 @@
-"use client";
 import { Card, CardBody } from "reactstrap";
 import { UseCart } from "../../Hooks/UseCart";
 

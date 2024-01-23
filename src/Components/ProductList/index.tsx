@@ -1,4 +1,3 @@
-"use client";
 import { Col, Row } from "reactstrap";
 import { ProductType } from "../../Services/Products";
 import ProductCard from "../ProductCard/";

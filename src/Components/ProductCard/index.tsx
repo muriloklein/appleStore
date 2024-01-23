@@ -19,7 +19,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   return (
     <>
       <Card>
-        <Link href={`/products/${id}`}>
+        <Link href={`/Products/${id}`}>
           <Image
             className="card-img-top"
             src={imageUrl}
@@ -29,7 +29,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           />
         </Link>
         <CardBody>
-          <Link href={`/products/${id}`}>
+          <Link href={`/Products/${id}`}>
             <h5 className="card-title" style={{ cursor: "pointer" }}>
               {name}
             </h5>

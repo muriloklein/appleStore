@@ -1,4 +1,3 @@
-"use client";
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import {
   ProductType,
@@ -10,6 +9,7 @@ import Head from "next/head";
 import Header from "../../Components/Header";
 import { Container } from "reactstrap";
 import ProductDetails from "../../Components/ProductDetails";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export const getStaticProps: GetStaticProps = async (context) => {
   const id = context.params?.id;

@@ -1,4 +1,3 @@
-"use client";
 import Header from "../../Components/Header";
 import { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
@@ -6,10 +5,10 @@ import { Container } from "reactstrap";
 import ProductsList from "@/Components/ProductList";
 import { ProductType, fetchProducts } from "../../Services/Products";
 import { ReactNode } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export const getStaticProps: GetStaticProps = async () => {
   const products = await fetchProducts();
-
   return { props: { products } };
 };
 
